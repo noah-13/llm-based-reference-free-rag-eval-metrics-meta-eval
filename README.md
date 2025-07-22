@@ -53,6 +53,6 @@ variants - including variants of prompt
 
 For example:
 
-ragas_cr.py evaluates context relevance using RAGAS
+[`ragas_cr.py`](/experiment/scipts/ragas_cr.py) evaluates context relevance using RAGAS
 
-prompt_ar_variants.py evaluates answer relevance using DP-free, DP-token and G-eval, including prompt variants
+[`prompt_ar_variants.py`](/experiment/scipts/prompt_ar_variants.py) evaluates answer relevance using DP-free, DP-token and G-eval, including prompt variants
