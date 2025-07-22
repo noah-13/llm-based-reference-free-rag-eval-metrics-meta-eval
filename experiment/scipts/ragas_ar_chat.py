@@ -135,7 +135,7 @@ class AnswerRelevanceEvaluator:
 
 def main(args):
     df = pd.read_csv(args.input_csv)
-    evaluator = AnswerRelevanceEvaluator(args.model_id, args.cache_dir, args.strictness)
+    evaluator = AnswerRelevanceEvaluator(args.model_id, args.strictness)
 
     new_columns = {
         "answer_relevancy_score": [],
