@@ -19,7 +19,7 @@ class AnswerRelevanceEvaluator:
         )
         self.model.eval()
         self.strictness = strictness
-        self.embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+        self.embedder = SentenceTransformer("BAAI/bge-base-en-v1.5")
 
     def _generate(self, messages, max_new_tokens=256):
         input_ids = self.tokenizer.apply_chat_template(
