@@ -27,8 +27,32 @@ We assess both **pairwise accuracy** and **correlation with human judgments**, a
 <pre>llm-metric-metaeval/
 ├── experiment/
 │ ├── scripts/ # Scripts for running metric evaluations
-│ ├── input/ # Input files: QCA data, prompt variants, annotations
-│ ├── output/ # Metric outputs (CSV, JSON, scores)
+│ ├── input/ # Input files: QCA data
+│ ├── output/ # Metric outputs (CSV)
 ├── results_analysis/
 │ ├── scripts/ # Scripts for accuracy, correlation, and robustness analysis
-│ ├── output/ # Tables and plots used in the paper</pre>
+│ ├── output/ # Analysis Results (CSV)</pre>
+
+## 🚀 Run Experiments
+Navigate to experiment/scripts/ and run any of the metric scripts. Example:
+
+<pre> python ragas_ff.py --input_csv ../input/ff.csv --output_csv ../output/ragas_ff_output.csv </pre>
+
+## 📌 Naming Conventions
+The files in follow the naming pattern:
+
+ff – Faithfulness
+
+ar – Answer Relevance
+
+cr – Context Relevance
+
+prompt - DP-free + DP-token + G-eval
+
+variants - including variants of prompt
+
+For example:
+
+ragas_cr.py evaluates context relevance using RAGAS
+
+prompt_ar_variants.py evaluates answer relevance using DP-free, DP-token and G-eval, including prompt variants
