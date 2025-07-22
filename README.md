@@ -24,11 +24,4 @@ We assess both **pairwise accuracy** and **correlation with human judgments**, a
 
 ## 📁 Project Structure
 
-llm-metric-metaeval/
-├── experiment/
-│ ├── scripts/ # Scripts for running metric evaluations
-│ ├── input/ # Input files: QCA data, prompt variants, annotations
-│ ├── output/ # Metric outputs (CSV, JSON, scores)
-├── results_analysis/
-│ ├── scripts/ # Scripts for accuracy, correlation, and robustness analysis
-│ ├── output/ # Tables and plots used in the paper
+<pre> ```text project-name/ ├── folder1/ │ ├── file1.py │ └── file2.py ├── folder2/ │ └── subfolder/ │ └── file3.py └── README.md ``` </pre>
