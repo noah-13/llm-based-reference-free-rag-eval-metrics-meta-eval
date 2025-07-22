@@ -41,15 +41,15 @@ Navigate to experiment/scripts/ and run any of the metric scripts. Example:
 ## 📌 Naming Conventions
 The files in follow the naming pattern:
 
-ff – Faithfulness
+- **ff** – Faithfulness
 
-ar – Answer Relevance
+- **ar** – Answer Relevance
 
-cr – Context Relevance
+- **cr** – Context Relevance
 
-prompt - DP-free + DP-token + G-eval
+- **prompt** - DP-free + DP-token + G-eval
 
-variants - including variants of prompt
+- **variants** - including variants of prompt
 
 For example:
 
