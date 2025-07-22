@@ -1,0 +1,4 @@
+score_type,dimension,avg_accuracy (%),std (%),formatted
+explicit_score,cr,58.33,5.85,58.3 ± 5.9
+top1_score,cr,50.0,2.53,50.0 ± 2.5
+weighted_score,cr,63.67,5.85,63.7 ± 5.9

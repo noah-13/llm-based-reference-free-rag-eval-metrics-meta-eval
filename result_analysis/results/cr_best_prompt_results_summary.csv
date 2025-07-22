@@ -1,0 +1,4 @@
+dimension,score_type,best_mode,best_score_range,best_accuracy (%)
+cr,explicit_score,imperative,0-1,66.0
+cr,weighted_score,interrogative,1-10,72.0
+cr,top1_score,imperative,1-5,54.0

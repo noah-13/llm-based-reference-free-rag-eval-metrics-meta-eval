@@ -1,0 +1,14 @@
+# Ignore Python cache and virtual env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Ignore sensitive input files (e.g., human annotations)
+result_analysis/scripts/final_annotated_with_final_answer.xlsx
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db

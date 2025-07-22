@@ -1,0 +1,19 @@
+score_type,mode,score_range,accuracy (%),out_of_range (%),count
+explicit_score,imperative,1-5,92.0,0.0,50
+explicit_score,imperative,1-10,98.0,0.0,50
+explicit_score,imperative,0-1,100.0,0.0,50
+explicit_score,interrogative,1-5,92.0,0.0,50
+explicit_score,interrogative,1-10,98.0,0.0,50
+explicit_score,interrogative,0-1,98.0,0.0,50
+weighted_score,imperative,1-5,96.0,0.0,50
+weighted_score,imperative,1-10,96.0,0.0,50
+weighted_score,imperative,0-1,98.0,0.0,50
+weighted_score,interrogative,1-5,98.0,0.0,50
+weighted_score,interrogative,1-10,98.0,0.0,50
+weighted_score,interrogative,0-1,98.0,0.0,50
+top1_score,imperative,1-5,92.0,0.0,50
+top1_score,imperative,1-10,66.0,0.0,50
+top1_score,imperative,0-1,46.0,0.0,50
+top1_score,interrogative,1-5,90.0,0.0,50
+top1_score,interrogative,1-10,90.0,0.0,50
+top1_score,interrogative,0-1,46.0,0.0,50
