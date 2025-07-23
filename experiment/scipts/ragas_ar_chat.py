@@ -19,7 +19,7 @@ class AnswerRelevanceEvaluator:
         )
         self.model.eval()
         self.strictness = strictness
-        self.embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+        self.embedder = SentenceTransformer("BAAI/bge-base-en-v1.5")
 
     def _generate(self, messages, max_new_tokens=256):
         input_ids = self.tokenizer.apply_chat_template(
@@ -135,7 +135,7 @@ class AnswerRelevanceEvaluator:
 
 def main(args):
     df = pd.read_csv(args.input_csv)
-    evaluator = AnswerRelevanceEvaluator(args.model_id, args.cache_dir, args.strictness)
+    evaluator = AnswerRelevanceEvaluator(args.model_id, args.strictness)
 
     new_columns = {
         "answer_relevancy_score": [],
